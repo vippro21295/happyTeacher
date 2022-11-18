@@ -6,6 +6,7 @@ body {
     background-image: -o-radial-gradient(#374566, #010203);
     background-image: radial-gradient(#374566, #010203);
     font-family: 'Lobster', cursive;
+    overflow-y: hidden;
 }
 
 span {
@@ -113,7 +114,7 @@ span {
 
 .balloon>div:nth-child(6) {
     background: rgba(242, 194, 58, 0.9);
-    left: -250px;
+    left: -220px;
     top: 180px;
     box-shadow: inset 10px 10px 10px rgba(234, 177, 15, 0.9);
     -webkit-animation: balloon4 3s ease-in-out infinite;
@@ -131,7 +132,7 @@ span {
 
 .balloon>div:nth-child(7) {
     background: rgba(45, 181, 167, 0.9);
-    left: -140px;
+    left: -120px;
     top: 180px;
     box-shadow: inset 10px 10px 10px rgba(45, 181, 167, 0.9);
     -webkit-animation: balloon3 5s ease-in-out infinite;
@@ -149,7 +150,7 @@ span {
 
 .balloon>div:nth-child(8) {
     background: rgba(242, 58, 165, 0.9);
-    left: -50px;
+    left: -20px;
     top: 180px;
     box-shadow: inset 10px 10px 10px rgba(242, 58, 165, 0.9);
     -webkit-animation: balloon2 3s ease-in-out infinite;
@@ -167,7 +168,7 @@ span {
 
 .balloon>div:nth-child(9) {
     background: rgba(182, 15, 97, 0.9);
-    left: 50px;
+    left: 80px;
     top: 180px;
     box-shadow: inset 10px 10px 10px rgba(182, 15, 97, 0.9);
     -webkit-animation: balloon4 5s ease-in-out infinite;
@@ -185,7 +186,7 @@ span {
 
 .balloon>div:nth-child(10) {
     background: rgba(242, 194, 58, 0.9);
-    left: 150px;
+    left: 180px;
     top: 180px;
     box-shadow: inset 10px 10px 10px rgba(234, 177, 15, 0.9);
     -webkit-animation: balloon1 6s ease-in-out infinite;
@@ -203,7 +204,7 @@ span {
 
 .balloon>div:nth-child(11) {
     background: rgba(234, 15, 15, 0.9);
-    left: 250px;
+    left: 280px;
     top: 180px;
     box-shadow: inset 10px 10px 10px rgba(234, 15, 15, 0.9);
     -webkit-animation: balloon2 4s ease-in-out infinite;
@@ -221,7 +222,7 @@ span {
 
 .balloon>div:nth-child(12) {
     background: rgba(64, 241, 28, 0.9);
-    left: 360px;
+    left: 380px;
     top: 180px;
     box-shadow: inset 10px 10px 10px rgba(64, 241, 28, 0.9);
     -webkit-animation: balloon1 3s ease-in-out infinite;
@@ -239,7 +240,7 @@ span {
 
 .balloon>div:nth-child(13) {
     background: rgba(15, 219, 234, 0.9);
-    left: 460px;
+    left: 480px;
     top: 180px;
     box-shadow: inset 10px 10px 10px rgba(15, 219, 234, 0.9);
     -webkit-animation: balloon2 6s ease-in-out infinite;
@@ -254,7 +255,7 @@ span {
 
 .balloon>div:nth-child(14) {
     background: rgba(226, 35, 6, 0.9);
-    left: 600px;
+    left: 620px;
     top: 180px;
     box-shadow: inset 10px 10px 10px rgba(226, 35, 6, 0.9);
     -webkit-animation: balloon4 6s ease-in-out infinite;
@@ -269,7 +270,7 @@ span {
 
 .balloon>div:nth-child(15) {
     background: rgba(180, 224, 67, 0.9);
-    left: 700px;
+    left: 720px;
     top: 180px;
     box-shadow: inset 10px 10px 10px rgba(180, 224, 67, 0.9);
     -webkit-animation: balloon2 6s ease-in-out infinite;
@@ -284,7 +285,7 @@ span {
 
 .balloon>div:nth-child(16) {
     background: rgba(242, 58, 165, 0.9);
-    left: 800px;
+    left: 820px;
     top: 180px;
     box-shadow: inset 10px 10px 10px rgba(242, 58, 165, 0.9);
     -webkit-animation: balloon2 3s ease-in-out infinite;
@@ -304,22 +305,23 @@ span {
     cursor: pointer;
     position: absolute;
     top: 55%;
-    left: calc(50% - 100px);
+    left: 33%;
 }
 
 .avatar__img {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    border: 5px solid rgba(234, 15, 150, 0.9);
-    box-shadow: inset 10px 10px 10px rgba(15, 219, 234, 0.9);
+    width: 220px;
     -webkit-animation: balloon1 6s ease-in-out infinite;
     -moz-animation: balloon1 6s ease-in-out infinite;
     -o-animation: balloon1 6s ease-in-out infinite;
     animation: balloon1 6s ease-in-out infinite;
 }
 
+.text {
+    margin-left: -140px;
+}
+
 .avatar__title {
+    font-size: 35px;
     cursor: pointer;
     margin-top: -120px;
     -webkit-animation: balloon1 4s ease-in-out infinite;
